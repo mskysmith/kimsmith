@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Lora|Nova+Slim|Prata');
+body {
+    font-size:24px;
+    color: #000000;
+    text-align: center;
+    background-color:#e5dce2;
+    font-family:'prata' sans-serif;
+}
+
+/*div {
+    border: 5px black solid;
+} */
+
+#home {
+  background-image: url("images/mira6.jpg");
+  height:100%;
+  background-color: #FFC0CB;
+  background-size: cover;
+  margin: 0px;
+  }
+  
+.navbar {
+    color: #ffffff;
+    background-color: grey;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 32px;
+    display: block;
+}
+
+.nav1 {
+    text-decoration: none;
+    margin: auto
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 32px; 
+    display: inline-block;
+}
+
+
+
+h1 {
+    color: #FFFFFF;
+    background-color: grey;
+    border: 15px double pink;
+    text-align: center;
+    font-size: 48px;
+    font-family: serif;
+    margin: 100px;
+    padding: 2px;
+}
+/*  
+#home {
+    
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  color:white;
+}
+
+.co-name {
+     font-size: 32px;
+     font-family: 'Lora', sans-serif;
+     border:;
+}
+
+/*.navbar li a{
+  color:white;
+  margin: 0px 10px;
+  font-size: 32px;
+  text-decoration: none;
+  margin: auto;
+} 
+
+li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 32px; 
+    border: 5px red thick;
+}*/
+
+.navbar a:hover {
+    background-color: #000000;
+    text-decoration: none;
+    font-family: 'tajawal' sans-serif;
+    color:white;
+    margin: auto;
+    list-style-type: none;
+}
+    
+.headings {
+    margin: auto;
+    font-size: 40px;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+    text-align:center;
+    font-family:'Lora'
+}
+
+.image-audio {
+    font-family: 'limelight', sans-serif;
+    margin: auto;
+
+}
+#talents {
+    color: #FFFFFF;
+    background-color: grey;
+    border: 5px double pink;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    margin: 20px;
+    padding: 10px
+}
+
+.paragraph1 {
+    font-family: 'loral';
+    border: 10px;
+    border-style: dotted;
+    border-color: black;
+    padding: 10px;
+    margin: 20px;
+    color: #4f4b4b;
+    background-color: #FFC0CB;
+    border: 5px double pink;
+    text-align: center;
+    font-size: 30px;
+    }
+.paragraph1 {
+    border-color: grey;
+    margin: auto;
+    padding: 45px;
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.borders {
+   color:#ffffff; 
+   background-color:#686464;
+   font-size:28px;
+   font-family: "limelight" serif;
+   text-align:center;
+   margin: 20px;
+   padding: 30px;
+   border: 10px #c17293 groove;
+}
+
+
+#navimage {
+    height:250px;
+	width:200px;
+	margin: auto;
+	padding: 2px 0 2px 0;
+	border-radius: 50px;
+}
+
+.paragraph2 img {
+    
+    width: 250px;
+}
+
+
+#intro {
+    
+}
+
+
+.highlights {
+    padding: 20px;
+    border-color: #6b8ba3;
+    font-size: 28px;
+    text-decoration: none;
+    background-color: #c6bebe;
+    margin: 50px;
+    
+}
+.highlights li { 
+    color: #000000;
+    text-decoration: none;
+    font-family: serif;
+    font-weight: bold;
+}
+
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+/*.about {
+
+    font-family: 'loral' sans-serif;
+    border-style: dotted;
+    border-color: black;
+    padding: 10px;
+    margin: 20px;
+    color: #4f4b4b;
+    background-color: #FFC0CB;
+    border: 5px double pink;
+    text-align: center;
+    font-size: 32px;
+} */
+.paragraph2 {
+
+    font-family: 'nova+slim' sans-serif;
+    border-style: groove;
+    border-color: black;
+    color: #1c1b1b;
+    background-color: #FFC0CB;
+    font-size: 26px;
+    margin: auto;
+    width:100%;
+    display:flex;
+    margin-top:1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#favorites {
+    font-size: 26px;
+    margin: auto;
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(254, 80, 110);
+    font-family: 'nova+slim' sans-serif;
+    text-align: center;
+    margin-top: 2px;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 0px;
+    height: 60%;
+
+}
+.about2 img {
+    float: right;
+} 
+.dancevideos img {
+    display: inline;
+    text-align: center;
+}
+
+
+p  {
+    font-family:'Tajawal';
+    clear: right;
+    margin: auto;
+    }
+    
+    
+footer {
+    display: block;
+    margin: auto;
+    color: #FFFFFF;
+    background-color: grey;
+    border: 5px double #000000;
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+    text-decoration: none;
+
+}
+
+#playlink {
+    font-family: fantasy;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: auto;
+}
+
+/*img {
+	height:250px;
+	
+	width:200px;
+	
+	margin:auto;
+	font-size: 40px;
+	border-radius: 100%;
+	align-items:center;
+    background-color: grey;
+    padding:3px;
+}
+*/
+#gallery {
+    display: inline-block;
+    margin: auto;
+    background-color: rgb(254, 80, 110);
+    
+}
+
+.content {
+    width:90%;
+    margin:auto;
+}
+
+img {
+    width: 350px;
+    display: inline-block;
+    margin:auto;
+    border-radius: 25px;
+}
